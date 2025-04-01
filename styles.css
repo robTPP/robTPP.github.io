@@ -1,0 +1,60 @@
+body {
+    background-color: #ffe9b4; /* Background color */
+    font-family: 'Open Sans', sans-serif; /* Fallback font */
+    margin: 0;
+     display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.parDiv {
+
+}
+.welcomeH {
+ display: block;
+ position: relative; top:-200px;
+ text-align: center;
+    justify-content: top;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.logo-image {
+    width: 120px; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between image and banner text */
+}
+
+.logo-imageNZ {
+    width: 100px; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between image and banner text */
+}
+
+.banner {
+/*    text-align: left;  Align text to the left for better look */
+}
+
+.banner-link {
+    text-decoration: none;  /* No underline for the link */
+    color: #000000; /* Font color */
+    font-family: 'League Spartan', sans-serif; /* Brand name font */
+    font-size: 50px; /* Size of the brand name */
+}
+
+.brand-name.highlight {
+    font-weight: bold; /* Highlight for 'policy' */
+}
+
+.tagline {
+    font-family: 'Open Sans', sans-serif; /* Tagline font */
+    font-size: 16px; /* Size of tagline */
+    color: #000000; /* Tagline color */
+    margin-top: 10px; /* Spacing above the tagline */
+	text-align: center; 
+}
