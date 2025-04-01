@@ -2,36 +2,36 @@ body {
     background-color: #ffe9b4; /* Background color */
     font-family: 'Open Sans', sans-serif; /* Fallback font */
     margin: 0;
-     display: flex;
+ /*    display: flex;
   
     align-items: center;
     justify-content: center;
     height: 100vh; /* Full viewport height */
+	*/
 }
 
-.parDiv {
 
-}
 .welcomeH {
  display: block;
- position: relative; top:-200px;
+margin-top: 200px;
  text-align: center;
-    justify-content: top;
+   
 }
 
 .banner-container {
     display: flex;
+	justify-content: center;
     align-items: center; /* Align items vertically in the center */
 }
 
 .logo-image {
-    width: 120px; /* Set your desired width */
+    width: 100px; /* Set your desired width */
     height: auto; /* Maintain aspect ratio */
     margin-right: 20px; /* Space between image and banner text */
 }
 
 .logo-imageNZ {
-    width: 100px; /* Set your desired width */
+    width: 80px; /* Set your desired width */
     height: auto; /* Maintain aspect ratio */
     margin-right: 20px; /* Space between image and banner text */
 }
